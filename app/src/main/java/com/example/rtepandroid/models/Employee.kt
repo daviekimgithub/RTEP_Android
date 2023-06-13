@@ -1,0 +1,31 @@
+package com.example.rtepandroid.models
+
+data class Employee(
+    val active: Boolean,
+    val created_at: String,
+    val date_joined: String,
+    val date_of_birth: Any,
+    val date_of_hire: Any,
+    val department_id: Any,
+    val designation: String,
+    val email: String,
+    val employment_type: String,
+    val first_name: String,
+    val gender: String,
+    val groups: List<Any>,
+    val home_address: Any,
+    val id: Int,
+    val id_no: Any,
+    val is_active: Boolean,
+    val is_staff: Boolean,
+    val is_superuser: Boolean,
+    val last_login: String,
+    val last_name: String,
+    val mobile_no: Any,
+    val password: String,
+    val public_service_no: Int,
+    val role: String,
+    val updated_at: String,
+    val user_permissions: List<Any>,
+    val username: String
+)
